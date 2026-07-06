@@ -1,0 +1,11 @@
+name = input("Enter your name: ")
+age = int(input(("Enter your age: ")))
+fav_lang = input("Enter your favorite programming language: ")
+
+print("**********USER PROFILE**********")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Age in Months: {age * 12}")
+print(f"Age in Days: {age * 365}")
+print(f"Favorite language: {fav_lang}")
+print("********************************")
